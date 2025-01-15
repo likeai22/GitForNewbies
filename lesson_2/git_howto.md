@@ -1,12 +1,39 @@
 # Подсказка по GIT
 
-Создание репозитория:
+**Создание репозитория:**
 ```sh
 git init
 ```
-
-
+---
+## Добавление файла и коммит
+```sh
+git add lesson_2/git_howto.md
 git commit -m "Message"
+```
+
+В терминале видим следующее: 
+
+![[Pasted image 20250115084540.png]]
+
+проблему с кодировкой временно решил так: `git config --global core.autocrlf true`
+
+---
+## Посмотрим на историю
+```sh
 git log
+```
+
+![[Pasted image 20250115085053.png]]
+
+---
+## Выведем историю компактней
+```sh
 git log --oneline
-git checkout
+```
+
+![[Pasted image 20250115085318.png]]
+
+---
+## Просмотр коммитов
+
+Команда `git checkout` и ID коммита `3166336` 
