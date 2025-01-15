@@ -2,7 +2,7 @@
 ---
 ## Команда смены директории
 
-```sh
+``` sh
 cd c:\folder_name
 ```
 
@@ -10,13 +10,31 @@ cd c:\folder_name
 
 ### MacOS, Linux, Powershell Windows:
 
-```sh
+``` sh
 pwd
 ```
+## Листинг текущей директории
 
-## Листинг текущей директории Windows
+### Windows
 
-```sh
+``` sh
 dir
 ```
+### MacOS, Linux
 
+``` sh
+ls
+```
+## Удаление файла в Windows
+
+### Windows
+
+``` sh
+del <filename>
+```
+
+### MacOS, Linux
+
+``` sh
+rm <filename>
+```
