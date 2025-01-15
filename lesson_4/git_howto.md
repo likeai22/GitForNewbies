@@ -28,7 +28,7 @@ git checkout <имя ветки>
 git switch <имя ветки>
 ```
 
-## Отображение веток
+## Отображение веток (list_branch)
 ```sh
 git branch
 ```
