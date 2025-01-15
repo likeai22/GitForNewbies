@@ -170,8 +170,13 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 
-.idea
+/.idea
 *.pdf
 /dir_crt.py
 /lesson_1/les/
 /lesson_2/les/
+/lesson_3/les/
+/lesson_4/les/
+/lesson_5/les/
+/lesson_6/les/
+/.idea/.gitignore
